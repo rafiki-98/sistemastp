@@ -1,7 +1,7 @@
 // Función para cambiar el color del slogan cada 3 segundos
 function changeSloganColor() {
     const slogan = document.querySelector('.slogan');
-    const colors = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#f7b731'];
+    const colors = ['red', 'blue', 'grey', 'green'];
     let colorIndex = 0;
 
     setInterval(() => {
