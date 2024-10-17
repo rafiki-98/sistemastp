@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: grey;
+}
+main {
+    flex: 1;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.hero-section {
+    background-image: url('./images/prosperity.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.hero-content {
+    background-color: rgba(0,0,0,0.6);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.slogan {
+    font-size: 1.5rem;
+    font-style: italic;
+}
