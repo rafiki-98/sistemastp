@@ -36,3 +36,62 @@ main {
     font-size: 1.5rem;
     font-style: italic;
 }
+
+.org-tree {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.org-level {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.org-box {
+    border: 2px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: inline-block;
+    min-width: 200px;
+}
+
+.level-1 {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.level-2 {
+    background-color: #198754;
+    color: white;
+}
+
+.level-3 {
+    background-color: #0dcaf0;
+    color: black;
+}
+
+.connector {
+    width: 2px;
+    height: 20px;
+    background-color: #ddd;
+    margin: 0 auto;
+}
+
+.department-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.subordinates {
+    font-size: 0.9rem;
+    padding: 5px;
+    margin-top: 5px;
+    border-top: 1px solid #eee;
