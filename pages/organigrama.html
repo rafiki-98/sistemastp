@@ -25,6 +25,9 @@
                             <a class="nav-link" href="./nosotros.html">Nosotros</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="./estructura.html">Estructura</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./organigrama.html">Organigrama</a>
                         </li>
                         <li class="nav-item">
@@ -42,19 +45,19 @@
     <main class="container-fluid py-5">
         <div class="container">
             <h1 class="text-center mb-5">Organigrama de AutoFamilia Boulogne</h1>
-
+    
             <!-- Estructura Principal -->
             <section class="section-container">
                 <div class="org-tree">
                     <div class="org-level">
                         <div class="org-box level-1">CEO</div>
-                        <div class="connector"></div>
                     </div>
+                    <div class="connector-line-vertical"></div>
                     
                     <div class="org-level">
                         <div class="org-box level-2">Gerente General Agencias</div>
-                        <div class="connector"></div>
                     </div>
+                    <div class="connector-line-vertical"></div>
                     
                     <div class="department-row">
                         <div class="org-box level-2">G. Administración</div>
@@ -65,7 +68,7 @@
                     </div>
                 </div>
             </section>
-
+    
             <!-- Gerencia Administrativa -->
             <section class="section-container">
                 <h2 class="section-title">Gerencia Administrativa</h2>
@@ -73,31 +76,30 @@
                     <div class="org-level">
                         <div class="org-box level-2">Gerente Administrativo</div>
                     </div>
-                    <div class="connector-vertical"></div>
-                    <div class="org-level">
+                    <div class="connector-line-vertical"></div>
+                    
+                    <div class="org-level level-chiefs">
                         <div class="org-box level-3">Jefe de Contabilidad</div>
                         <div class="org-box level-3">Jefe de Tesorería</div>
                         <div class="org-box level-3">Jefe de Finanzas</div>
                     </div>
-                    <div class="connector-horizontal"></div>
-                    <div class="connector-vertical"></div>
+                    <div class="connector-line-horizontal"></div>
+                    
                     <div class="department-row">
                         <div class="org-box level-4">
                             Supervisor Contable
                             <div class="staff-members">
-                                • Contador Sr.<br>
-                                • Auxiliares (2)
+                                • Auxiliar contable
                             </div>
                         </div>
                         <div class="org-box level-4">
                             Supervisor de Tesorería
                             <div class="staff-members">
-                                • Tesorero<br>
                                 • Cajeros (3)
                             </div>
                         </div>
                         <div class="org-box level-4">
-                            Supervisor F&I
+                            Supervisor Finanzas
                             <div class="staff-members">
                                 • Analista Sr.<br>
                                 • Gestor de Créditos
@@ -114,14 +116,15 @@
                     <div class="org-level">
                         <div class="org-box level-2">Gerente Post-Venta</div>
                     </div>
-                    <div class="connector-vertical"></div>
-                    <div class="org-level">
+                    <div class="connector-line-vertical"></div>
+                    
+                    <div class="org-level level-chiefs">
                         <div class="org-box level-3">Jefe de Taller</div>
                         <div class="org-box level-3">Jefe de Garantías</div>
-                        <div class="org-box level-3">Jefe de Repuestos</div>
+                        <div class="org-box level-3">Jefe de Logistica</div>
                     </div>
-                    <div class="connector-horizontal"></div>
-                    <div class="connector-vertical"></div>
+                    <div class="connector-line-horizontal"></div>
+                    
                     <div class="department-row">
                         <div class="org-box level-4">
                             Supervisor de Mecánica
@@ -140,27 +143,29 @@
                         <div class="org-box level-4">
                             Supervisor de Almacén
                             <div class="staff-members">
-                                • Encargado de Stock<br>
-                                • Vendedores (2)
+                                • Movilizadores de vehiculos<br>
+                                • Auxiliar de recepción de vehículos
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+    
+            <!-- Gerencia de Recursos Humanos -->
             <section class="section-container">
                 <h2 class="section-title">Gerencia de Recursos Humanos</h2>
                 <div class="org-tree">
                     <div class="org-level">
                         <div class="org-box level-2">Gerente de RRHH</div>
                     </div>
-                    <div class="connector-vertical"></div>
-                    <div class="org-level">
+                    <div class="connector-line-vertical"></div>
+                    
+                    <div class="org-level level-chiefs">
                         <div class="org-box level-3">Jefe de Selección</div>
-                        <div class="org-box level-3">Jefe de Desarrollo</div>
                         <div class="org-box level-3">Jefe de Compensaciones</div>
                     </div>
-                    <div class="connector-horizontal"></div>
-                    <div class="connector-vertical"></div>
+                    <div class="connector-line-horizontal"></div>
+                    
                     <div class="department-row">
                         <div class="org-box level-4">
                             Supervisor de Reclutamiento
@@ -170,12 +175,6 @@
                             </div>
                         </div>
                         <div class="org-box level-4">
-                            Supervisor de Capacitación
-                            <div class="staff-members">
-                                • Coordinador de Formación<br>
-                                • Instructores (2)
-                            </div>
-                        </div>
                         <div class="org-box level-4">
                             Supervisor de Nómina
                             <div class="staff-members">
@@ -186,7 +185,7 @@
                     </div>
                 </div>
             </section>
-
+    
             <!-- Gerencia Comercial -->
             <section class="section-container">
                 <h2 class="section-title">Gerencia Comercial</h2>
@@ -194,19 +193,29 @@
                     <div class="org-level">
                         <div class="org-box level-2">Gerente Comercial</div>
                     </div>
-                    <div class="connector-vertical"></div>
-                    <div class="org-level">
+                    <div class="connector-line-vertical"></div>
+                    
+                    <div class="org-level level-chiefs">
                         <div class="org-box level-3">Jefe de Ventas</div>
+                        <div class="org-box level-3">Jefe de Compras</div>
                         <div class="org-box level-3">Jefe de Marketing</div>
                     </div>
-                    <div class="connector-horizontal"></div>
-                    <div class="connector-vertical"></div>
+                    <div class="connector-line-horizontal"></div>
+                    
                     <div class="department-row">
                         <div class="org-box level-4">
                             Supervisor de Ventas
                             <div class="staff-members">
                                 • Vendedor Senior<br>
                                 • Vendedores (4)
+                            </div>
+                        </div>
+                        <div class="org-box level-4">
+                            Supervisor de Compras
+                            <div class="staff-members">
+                                • Especialista en autos usados<br>
+                                • Analista de compras<br>
+                                • Coordinador de logística
                             </div>
                         </div>
                         <div class="org-box level-4">
@@ -228,13 +237,14 @@
                     <div class="org-level">
                         <div class="org-box level-2">Gerente de Servicios</div>
                     </div>
-                    <div class="connector-vertical"></div>
-                    <div class="org-level">
+                    <div class="connector-line-vertical"></div>
+                    
+                    <div class="org-level level-chiefs">
                         <div class="org-box level-3">Jefe de Mantenimiento</div>
                         <div class="org-box level-3">Jefe de Seguridad</div>
                     </div>
-                    <div class="connector-horizontal"></div>
-                    <div class="connector-vertical"></div>
+                    <div class="connector-line-horizontal"></div>
+                    
                     <div class="department-row">
                         <div class="org-box level-4">
                             Supervisor de Instalaciones
@@ -255,8 +265,6 @@
             </section>
         </div>
     </main>
-
-
    
 
     <footer class="bg-dark text-light py-4">
