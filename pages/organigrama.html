@@ -39,294 +39,225 @@
         </nav>
     </header>
 
-    <main class="container py-5">
-        <h1 class="text-center mb-5">Organigrama de AutoFamilia Boulogne</h1>
-        <div><img src="../images/Organigrama-Final.jpg" class="img-fluid" alt="organigrama en canva"></div>
-        <h1 class="mb-4">Estructura Organizacional</h1>
+    <main class="container-fluid py-5">
+        <div class="container">
+            <h1 class="text-center mb-5">Organigrama de AutoFamilia Boulogne</h1>
 
-        <!-- Gerencia Administrativa -->
-        <section class="card mb-4">
-            <div class="card-header bg-primary text-white">
-                <h2 class="h4 mb-0">Gerencia Administrativa</h2>
-            </div>
-            <div class="card-body">
-                <h3 class="h5 mb-3">Gerente de Administración de Agencias</h3>
-                <p>Acata las órdenes administrativas de cada agencia en base al objetivo de la empresa general. Cumple la función de guiar y supervisar la administración, políticas y funcionamiento de cada agencia para asegurar que coincida con la meta de la empresa.</p>
-                
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Contador General</h4>
-                                <p>Encargado de la contabilidad general, manejo de información financiera, cumplimiento de normas contables y tributarias, y declaración de impuestos.</p>
+            <!-- Estructura Principal -->
+            <section class="section-container">
+                <div class="org-tree">
+                    <div class="org-level">
+                        <div class="org-box level-1">CEO</div>
+                        <div class="connector"></div>
+                    </div>
+                    
+                    <div class="org-level">
+                        <div class="org-box level-2">Gerente General Agencias</div>
+                        <div class="connector"></div>
+                    </div>
+                    
+                    <div class="department-row">
+                        <div class="org-box level-2">G. Administración</div>
+                        <div class="org-box level-2">G. Post-venta</div>
+                        <div class="org-box level-2">G. RRHH</div>
+                        <div class="org-box level-2">G. Comercial</div>
+                        <div class="org-box level-2">G. Servicios</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gerencia Administrativa -->
+            <section class="section-container">
+                <h2 class="section-title">Gerencia Administrativa</h2>
+                <div class="org-tree">
+                    <div class="org-level">
+                        <div class="org-box level-2">Gerente Administrativo</div>
+                    </div>
+                    <div class="connector-vertical"></div>
+                    <div class="org-level">
+                        <div class="org-box level-3">Jefe de Contabilidad</div>
+                        <div class="org-box level-3">Jefe de Tesorería</div>
+                        <div class="org-box level-3">Jefe de Finanzas</div>
+                    </div>
+                    <div class="connector-horizontal"></div>
+                    <div class="connector-vertical"></div>
+                    <div class="department-row">
+                        <div class="org-box level-4">
+                            Supervisor Contable
+                            <div class="staff-members">
+                                • Contador Sr.<br>
+                                • Auxiliares (2)
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Encargado de Crédito y Cobranza</h4>
-                                <p>Gestiona cuentas por cobrar, aprueba solicitudes de crédito y asegura el pago oportuno de deudas.</p>
+                        <div class="org-box level-4">
+                            Supervisor de Tesorería
+                            <div class="staff-members">
+                                • Tesorero<br>
+                                • Cajeros (3)
+                            </div>
+                        </div>
+                        <div class="org-box level-4">
+                            Supervisor F&I
+                            <div class="staff-members">
+                                • Analista Sr.<br>
+                                • Gestor de Créditos
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Finanzas y Seguros (F&I)</h4>
-                                <p>Gestiona operaciones financieras, contrata pólizas de seguro y supervisa el flujo de caja. Trabaja con tesorería en la administración de presupuestos.</p>
+            </section>
+    
+            <!-- Gerencia Post-Venta -->
+            <section class="section-container">
+                <h2 class="section-title">Gerencia Post-Venta</h2>
+                <div class="org-tree">
+                    <div class="org-level">
+                        <div class="org-box level-2">Gerente Post-Venta</div>
+                    </div>
+                    <div class="connector-vertical"></div>
+                    <div class="org-level">
+                        <div class="org-box level-3">Jefe de Taller</div>
+                        <div class="org-box level-3">Jefe de Garantías</div>
+                        <div class="org-box level-3">Jefe de Repuestos</div>
+                    </div>
+                    <div class="connector-horizontal"></div>
+                    <div class="connector-vertical"></div>
+                    <div class="department-row">
+                        <div class="org-box level-4">
+                            Supervisor de Mecánica
+                            <div class="staff-members">
+                                • Mecánico Principal<br>
+                                • Mecánicos (5)
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Tesorería</h4>
-                                <p>Gestiona el dinero de la empresa, controla flujo de caja, administra pagos y cobros, con apoyo del auxiliar de tesorería.</p>
+                        <div class="org-box level-4">
+                            Supervisor de Garantías
+                            <div class="staff-members">
+                                • Gestor de Garantías<br>
+                                • Analista de Reclamos
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Gerencia Post Venta -->
-        <section class="card mb-4">
-            <div class="card-header bg-success text-white">
-                <h2 class="h4 mb-0">Gerencia Post Venta</h2>
-            </div>
-            <div class="card-body">
-                <p>Coordina la satisfacción del cliente post-compra y la entrega eficiente de vehículos.</p>
-                
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Jefe de Taller</h4>
-                                <p>Realiza control de calidad de vehículos nuevos y usados.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Recepción y Entrega</h4>
-                                <p>Supervisa el control de calidad y preparación de vehículos para entrega.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Encargado de Recambios</h4>
-                                <p>Gestiona repuestos y brinda asesoramiento técnico.</p>
+                        <div class="org-box level-4">
+                            Supervisor de Almacén
+                            <div class="staff-members">
+                                • Encargado de Stock<br>
+                                • Vendedores (2)
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Gerencia RRHH -->
-        <section class="card mb-4">
-            <div class="card-header bg-info text-white">
-                <h2 class="h4 mb-0">Gerencia de Recursos Humanos</h2>
-            </div>
-            <div class="card-body">
-                <p>Gestiona el ambiente interno, políticas y reclutamiento de personal.</p>
-                
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Administración General</h4>
-                                <p>Recluta y capacita empleados con apoyo de personal experimentado.</p>
+            </section>
+            <section class="section-container">
+                <h2 class="section-title">Gerencia de Recursos Humanos</h2>
+                <div class="org-tree">
+                    <div class="org-level">
+                        <div class="org-box level-2">Gerente de RRHH</div>
+                    </div>
+                    <div class="connector-vertical"></div>
+                    <div class="org-level">
+                        <div class="org-box level-3">Jefe de Selección</div>
+                        <div class="org-box level-3">Jefe de Desarrollo</div>
+                        <div class="org-box level-3">Jefe de Compensaciones</div>
+                    </div>
+                    <div class="connector-horizontal"></div>
+                    <div class="connector-vertical"></div>
+                    <div class="department-row">
+                        <div class="org-box level-4">
+                            Supervisor de Reclutamiento
+                            <div class="staff-members">
+                                • Analista de Selección<br>
+                                • Reclutadores (2)
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Consultora</h4>
-                                <p>Resuelve problemas y brinda asesoramiento en contratos y ventas.</p>
+                        <div class="org-box level-4">
+                            Supervisor de Capacitación
+                            <div class="staff-members">
+                                • Coordinador de Formación<br>
+                                • Instructores (2)
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Gerencia Comercial -->
-        <section class="card mb-4">
-            <div class="card-header bg-warning">
-                <h2 class="h4 mb-0">Gerencia Comercial</h2>
-            </div>
-            <div class="card-body">
-                <p>Desarrolla estrategias de venta y supervisa equipos comerciales.</p>
-                
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Jefe de Ventas</h4>
-                                <p>Supervisa equipos de venta en el concesionario.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Gerente de Marketing</h4>
-                                <p>Desarrolla estrategias de atracción de clientes mediante redes sociales y publicidad.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Relaciones Públicas</h4>
-                                <p>Mantiene la imagen y reputación del concesionario.</p>
+                        <div class="org-box level-4">
+                            Supervisor de Nómina
+                            <div class="staff-members">
+                                • Analista de Beneficios<br>
+                                • Administrativo RRHH
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Sistemas y Servicios -->
-        <section class="card mb-4">
-            <div class="card-header bg-secondary text-white">
-                <h2 class="h4 mb-0">Sistemas y Servicios</h2>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Encargado de Sistemas</h4>
-                                <p>Gestiona el entorno de desarrollo, herramientas informáticas y soporte técnico.</p>
+            <!-- Gerencia Comercial -->
+            <section class="section-container">
+                <h2 class="section-title">Gerencia Comercial</h2>
+                <div class="org-tree">
+                    <div class="org-level">
+                        <div class="org-box level-2">Gerente Comercial</div>
+                    </div>
+                    <div class="connector-vertical"></div>
+                    <div class="org-level">
+                        <div class="org-box level-3">Jefe de Ventas</div>
+                        <div class="org-box level-3">Jefe de Marketing</div>
+                    </div>
+                    <div class="connector-horizontal"></div>
+                    <div class="connector-vertical"></div>
+                    <div class="department-row">
+                        <div class="org-box level-4">
+                            Supervisor de Ventas
+                            <div class="staff-members">
+                                • Vendedor Senior<br>
+                                • Vendedores (4)
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card mb-3">
-                            <div class="card-body">
-                                <h4 class="h6">Encargado de Servicios</h4>
-                                <p>Supervisa la atención al cliente y el mantenimiento del edificio.</p>
+                        <div class="org-box level-4">
+                            Supervisor de Marketing
+                            <div class="staff-members">
+                                • Community Manager<br>
+                                • Diseñador Gráfico<br>
+                                • Analista de Marketing
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+    
+            <!-- Gerencia de Servicios -->
+            <section class="section-container">
+                <h2 class="section-title">Gerencia de Servicios</h2>
+                <div class="org-tree">
+                    <div class="org-level">
+                        <div class="org-box level-2">Gerente de Servicios</div>
+                    </div>
+                    <div class="connector-vertical"></div>
+                    <div class="org-level">
+                        <div class="org-box level-3">Jefe de Mantenimiento</div>
+                        <div class="org-box level-3">Jefe de Seguridad</div>
+                    </div>
+                    <div class="connector-horizontal"></div>
+                    <div class="connector-vertical"></div>
+                    <div class="department-row">
+                        <div class="org-box level-4">
+                            Supervisor de Instalaciones
+                            <div class="staff-members">
+                                • Técnico de Mantenimiento<br>
+                                • Personal de Limpieza (5)
+                            </div>
+                        </div>
+                        <div class="org-box level-4">
+                            Supervisor de Seguridad
+                            <div class="staff-members">
+                                • Guardias (3)<br>
+                                • Monitoreo (2)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
-    <section>
-        <div class="container-fluid">
-            <div class="org-tree">
-                <!-- Nivel 1: CEO -->
-                <div class="org-level">
-                    <div class="org-box level-1">
-                        CEO
-                    </div>
-                    <div class="connector"></div>
-                </div>
-    
-                <!-- Nivel 2: Gerente General -->
-                <div class="org-level">
-                    <div class="org-box level-2">
-                        Gerente General Agencias
-                    </div>
-                    <div class="connector"></div>
-                </div>
-    
-                <!-- Nivel 3: Departamentos principales -->
-                <div class="department-row">
-                    <!-- G. Administración -->
-                    <div class="col-md">
-                        <div class="org-box level-3">
-                            G. Administración Agencias
-                            <div class="subordinates">
-                                • Contador General<br>
-                                • Crédito y Cobranza<br>
-                                • Finanzas y Seguros<br>
-                                • Sistemas<br>
-                                • Tesorería<br>
-                                • Aux. Tesorería<br>
-                                • Cajeras
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Gerente Post-venta -->
-                    <div class="col-md">
-                        <div class="org-box level-3">
-                            Gerente Post-venta
-                            <div class="subordinates">
-                                • Recepción y Entrega<br>
-                                • Adm. Taller<br>
-                                • Preparación<br>
-                                • Garantías<br>
-                                • Jefe de Taller<br>
-                                • Técnicos (6)<br>
-                                • Recambios
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- G. RRHH -->
-                    <div class="col-md">
-                        <div class="org-box level-3">
-                            G. RRHH
-                            <div class="subordinates">
-                                • Adm. General<br>
-                                • Reclutamiento<br>
-                                • Capacitación<br>
-                                • Consultora<br>
-                                • Supervisores<br>
-                                • Operadores
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Gerente Comercial -->
-                    <div class="col-md">
-                        <div class="org-box level-3">
-                            Gerente Comercial
-                            <div class="subordinates">
-                                • Jefe de Ventas<br>
-                                • Asesores (x4)<br>
-                                • Marketing<br>
-                                • Redes Sociales<br>
-                                • Diseño Gráfico<br>
-                                • Publicidad<br>
-                                • RRPP
-                            </div>
-                        </div>
-                    </div>
-    
-                    <!-- Encargado de Servicios -->
-                    <div class="col-md">
-                        <div class="org-box level-3">
-                            Encargado de Servicios
-                            <div class="subordinates">
-                                • Limpieza (x5)<br>
-                                • Seguridad (x3)<br>
-                                • Greeters (x2)<br>
-                                • Mantenimiento<br>
-                                • Recepción<br>
-                                • Autos Nuevos<br>
-                                • Autos Usados
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+   
 
     <footer class="bg-dark text-light py-4">
         <div class="container">
